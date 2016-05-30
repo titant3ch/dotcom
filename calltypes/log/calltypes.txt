@@ -1,0 +1,13 @@
+Dotcom-Call Types: create return express call tag shpmt/register for FSM and for ship admin/Viewing pay bills/Transfer to CAFE/Creating a label/locked out/ used unlock user id tool/Inlt shipment/wlkthru ship express call tag/transfer to cafe/return  email online label/company letterhead and signature assistance/1 source/
+
+Dotcom-AHT Drivers: register for FSM and for ship admin/wlkthru ship express call tag/Inlt shipment/company letterhead and signature assistance/create return express call tag shpmt/1 source/
+
+Dotcom-High Volume Types: 
+
+Domestic-Call Types: ISSUE RESOLUTION/
+
+Domestic-AHT Drivers: ISSUE RESOLUTION/
+
+Domestic-High Volume Types: 
+
+Load Issues: 

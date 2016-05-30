@@ -1,0 +1,47 @@
+/* Screen Resolution */
+
+@media screen and (max-width: 1020px) {
+  #leftContent {
+    width: 85%;
+    padding: 0 20px;
+    float: none;
+    margin: 0 5% 2%;
+  }
+
+  #rightContent {
+    width: 81%;
+    padding: 1px 20px 20px 20px;
+    margin: 30px 7% 2%;
+  }
+
+  input#s {
+    margin: 30px auto 0 auto;
+    display: block;
+    width: 60%;
+    text-align: center;
+  }
+  
+  #rightContent ul {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  #rightContent ul li, #rightContent ul li:hover {
+    list-style-type: none;
+  }
+
+  #rightContent ul li:hover {
+    background-color: #4D407A;
+  }
+
+  #rightContent ul li:hover a {
+    color: #fff;
+  }
+
+  /* Post */
+
+  #leftContentPost {
+    width: 95%;
+  }
+
+}
