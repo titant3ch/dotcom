@@ -15,7 +15,7 @@ Template Name: Memorial Day
 	
 	<!-- Paste Template Below -->
 
-<?php include 'DCM Schedule Shells WB 05.29 Memorial Day.htm'; ?>
+<?php include ''; ?>
 
 
 	<!-- End Template -->

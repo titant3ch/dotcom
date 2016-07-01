@@ -1,12 +1,12 @@
-Dotcom-Call Types: create return express call tag shpmt/register for FSM and for ship admin/Viewing pay bills/Transfer to CAFE/Creating a label/locked out/ used unlock user id tool/Inlt shipment/wlkthru ship express call tag/transfer to cafe/return  email online label/company letterhead and signature assistance/1 source/
+Dotcom-Call Types: FBST tool to unregister from FBO/reprint button not printing using saved favorite/error unable to process for invalid accnt/
 
-Dotcom-AHT Drivers: register for FSM and for ship admin/wlkthru ship express call tag/Inlt shipment/company letterhead and signature assistance/create return express call tag shpmt/1 source/
+Dotcom-AHT Drivers: reprint button not printing using saved favorite/FBST tool to unregister from FBO/error unable to process for invalid accnt/
 
 Dotcom-High Volume Types: 
 
-Domestic-Call Types: ISSUE RESOLUTION/
+Domestic-Call Types: Pick up schedual/Tracking a pkg/
 
-Domestic-AHT Drivers: ISSUE RESOLUTION/
+Domestic-AHT Drivers: Tracking a pkg/Pick up schedual/
 
 Domestic-High Volume Types: 
 
