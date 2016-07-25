@@ -1,12 +1,12 @@
-Dotcom-Call Types: FBST tool to unregister from FBO/reprint button not printing using saved favorite/error unable to process for invalid accnt/
+Dotcom-Call Types: CREATING SHIPMENT/FBO Unable to Process request/update cc billing/
 
-Dotcom-AHT Drivers: reprint button not printing using saved favorite/FBST tool to unregister from FBO/error unable to process for invalid accnt/
+Dotcom-AHT Drivers: update cc billing/CREATING SHIPMENT/FBO Unable to Process request/
 
 Dotcom-High Volume Types: 
 
-Domestic-Call Types: Pick up schedual/Tracking a pkg/
+Domestic-Call Types: 
 
-Domestic-AHT Drivers: Tracking a pkg/Pick up schedual/
+Domestic-AHT Drivers: 
 
 Domestic-High Volume Types: 
 
