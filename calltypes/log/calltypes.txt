@@ -1,6 +1,6 @@
-Dotcom-Call Types: CREATING SHIPMENT/FBO Unable to Process request/update cc billing/
+Dotcom-Call Types: ground labels & create pickup separately/Transfer to CAF/Transfer to CAF/Password Issues/Unspecified- Zebra Printers/International Shipment - South Korea Postal Code I/Return Label Walk through Customer Arguing w/agent/ZP500 Install Issues/International Shipment - Commercial Shipment Walk/International Shipment - Commercial Shipment Walk/International Shipment - Commercial Shipment Walk/International Shipment - Commercial Shipment Walk/New User / New Account - General Walk through/New User / New Account - General Walk through/Updating User Settings and setting up a BOL/DoorTag Tracking - Delivery Manager/Fedex Mobile App Troubleshooting/
 
-Dotcom-AHT Drivers: update cc billing/CREATING SHIPMENT/FBO Unable to Process request/
+Dotcom-AHT Drivers: ZP500 Install Issues/International Shipment - South Korea Postal Code I/Return Label Walk through Customer Arguing w/agent/International Shipment - Commercial Shipment Walk/International Shipment - Commercial Shipment Walk/International Shipment - Commercial Shipment Walk/
 
 Dotcom-High Volume Types: 
 
