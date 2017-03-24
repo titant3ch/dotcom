@@ -1,21 +1,26 @@
 <?php get_header(); ?>
 
-<div id="pagina">
+<div id="post">
 
-	<section class="container" id="singular">
+		<section class="container" id="single">
 
-		<h1><?php the_title(); ?></h1>
-		<hr>
-		
+			<h1><?php the_title(); ?></h1>
+			<h4><?php the_time('F j, Y'); ?></h4>
+			<hr>
+			
 
-		<?php while ( have_posts() ) : the_post() ?>
-		<?php the_content(); ?>
-		
-		<?php endwhile; ?>
+			<?php while ( have_posts() ) : the_post() ?>
+			<article>
+			    <?php the_content(); ?>
+			</article>
+			
+			<?php endwhile; ?>
 
-		<a href="#0" class="cd-top">Top</a>
+		</section>
 
-	</section>
+		<section  class="container" id="single">
+			<?php comments_template(); ?>
+		</section>
 
 </div>
 

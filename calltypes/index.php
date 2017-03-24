@@ -53,9 +53,10 @@
 
         <?php
 
-          error_reporting(E_ALL ^ E_DEPRECATED);
+          // Remove Error Log
+          error_reporting(0);
 
-          $con = mysql_connect("127.0.0.1", "root", "Fedex123");
+          $con = mysql_connect("127.0.0.1", "root", "root");
 
           if (!$con) {
             $noDatabase = true;

@@ -10,7 +10,7 @@
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 
 // Database connection starting
-$con = mysql_connect("127.0.0.1", "root", "Fedex123");
+$con = mysql_connect("127.0.0.1", "root", "root");
 
 if (!$con) {
 $noDatabase = true;

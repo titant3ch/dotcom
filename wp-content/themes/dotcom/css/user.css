@@ -80,7 +80,7 @@ header nav > ul > li a {
   /*background-color: #4686a0;*/
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed,	fixed, fixed;
-  background-image: url("../img/22.jpg");
+  background-image: url("../img/hello.jpg");
   background-position: top left,	center center,	center center;
   background-size: cover,	cover;
   overflow: hidden;
@@ -111,6 +111,8 @@ header nav > ul > li a {
   width: 45%;
   margin: 30px auto 0;
   line-height: 30px;
+  color: #556f66;
+  font-weight: 500;
 }
 
 #important #readMore {
@@ -376,4 +378,356 @@ section#single {
 .hidden-keywords
 {
     display: none;
+}
+
+/* Comments */
+
+h2.comments-title {
+    color: #4D407A;
+    font: 300 1.5rem Oxygen,Arial,Sans-Serif;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+div#respond {
+    margin: 0 auto;
+    width: 700px;
+}
+
+h3#reply-title {
+    text-align: center;
+    color: #4D407A;
+    font-family: 'Oxygen', Arial, Sans-Serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+#comments hr {
+    margin: 40px auto;
+}
+
+textarea#comment {
+    margin: 0 0 0 36px;
+    resize: none;
+    width: 584px;
+    height: 100px;
+    font-family: oxygen;
+    text-align: center;
+    font-size: 16px;
+    padding: 21px 17px;
+    border: 1px solid #ececec;
+    -webkit-box-shadow: 0 4px 8px -4px #999;
+    -moz-box-shadow: 0 4px 8px -4px #999;
+    box-shadow: 0 4px 8px -4px #999;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+textarea#comment::-webkit-input-placeholder {
+  padding-top: 40px;
+}
+
+input#author {
+    margin: 0 0 0 137px;
+    resize: none;
+    width: 384px;
+    height: 20px;
+    font-family: oxygen;
+    text-align: center;
+    font-size: 16px;
+    padding: 21px 17px;
+    border: 1px solid #ececec;
+    -webkit-box-shadow: 0 4px 8px -4px #999;
+    -moz-box-shadow: 0 4px 8px -4px #999;
+    box-shadow: 0 4px 8px -4px #999;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+input[type="submit"]#submit {
+    margin: 40px auto 3px auto;
+    display: block;
+    width: 136px;
+    text-align: center;
+    font-size: 1em;
+    border-radius: 4px;
+    padding: 5px;
+    border: 2px solid rgba(9,113,178,.5);
+    color: #0971B2;
+    cursor: pointer;
+    /* border-top-width: 0px; */
+    box-shadow: 0 4px 10px -4px #999;
+    background-color: white;
+    font-family: oxygen;
+    webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+ol.comment-list, ol.children {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 100%;
+  padding-left: 0;
+}
+
+ol.children > li > article > footer {
+  margin-top: 30px;
+  height: auto;
+  padding-left: 45px;
+}
+
+#comments > ol > li {
+  margin: 30px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 4px 8px -4px #999;
+  -moz-box-shadow: 0 4px 8px -4px #999;
+  box-shadow: 0 4px 8px -4px #999;
+}
+
+#comments > ol > li > article > .comment-meta {
+  height: 100%;
+  padding: 0 0;
+  margin-top: 0;
+}
+
+#comments > ol > li > article > footer > .comment-author > b, ol.children > li > article > footer > .comment-author > b {
+  font-family: oxygen;
+  color: rgba(77, 64, 122, 0.8);
+}
+
+#comments > ol > li > article > footer > .comment-author > span,  ol.children > li > article > footer > .comment-author > span {
+  display: none;
+}
+
+#comments > ol > li > article > .comment-content > p, ol.children > li > article > .comment-content > p {
+  color: black;
+  font-family: oxygen;
+  font-weight: 500;
+}
+
+ol.children > li > article > .comment-content > p {
+  padding-left: 45px;
+  font-size: 16px;
+}
+
+.comment-metadata {
+  padding-top: 15px;
+  font-family: oxygen;
+}
+
+.comment-metadata > a {
+  text-decoration: none;
+  color: rgba(77, 64, 122, 0.8);
+}
+
+/* Comments Logged In */
+
+#commentform > p.logged-in-as {
+  text-align: center;
+  font-family: oxygen;
+}
+
+#commentform > p.logged-in-as > a {
+  /*text-decoration: none;*/
+}
+
+p.no-comments {
+  font: 25px oxygen;
+  text-align: center;
+  color: #4D407A;
+}
+
+/* Table */
+
+table {
+  background: white;
+  margin: 0 auto;
+  width: 100%;}
+  table thead, {
+    background: whitesmoke;
+    font-weight: bold; }
+    table thead tr th,
+    table thead tr td,
+    table tfoot tr th,
+    table tfoot tr td {
+      padding: 0.5em 0.625em 0.625em;
+      font-size: 1.07em;
+      text-align: left;
+      color: rgba(77, 64, 122, .9) }
+  table tr th,
+  table tr td {
+    padding: 0.5625em 0.625em;
+    font-size: 0.875em; }
+  table tbody tr:nth-of-type(odd) {
+    background: rgba(77, 64, 122, .9);
+    color: white; }
+  table tbody tr {
+    background: whitesmoke; }
+
+ table {
+  margin: 75px auto;
+  font-size: 1.1rem;
+ }
+
+ table:last-child {
+  margin-left: 0;
+ }
+
+ #ot > div {
+  margin: 50px 0;
+ }
+
+ #ot > div > h1 {
+  font-size: 2.2rem;
+  text-align: center;
+ }
+
+  #ot > div > hr {
+    display: block;
+    margin: 0 auto 50px auto;
+    width: 50px;
+  }
+
+ #ot > div > table {
+  background: white;
+  margin: 0 auto;
+  border: solid 1px #dddddd; 
+  width: 50%;}
+
+ /* End */
+
+ /* The necessities */
+.onclick-menu {
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+.onclick-menu:before {
+  content: "Admin";
+  color: white;
+  font-size: 1.2rem;
+  font-family: 'Oxygen';
+  font-weight: 100;
+}
+.onclick-menu:focus {
+  pointer-events: none;
+}
+
+.onclick-menu:focus .onclick-menu-content {
+  opacity: 1;
+  visibility: visible;
+}
+
+.onclick-menu-content {
+  pointer-events: auto;
+  position: absolute;
+  z-index: 1;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 0.5s;
+}
+
+.onclick-menu.no-pointer-events {
+  pointer-events: auto !important;
+}
+
+.onclick-menu.no-visibility .onclick-menu-content {
+  visibility: visible !important;
+  display: none;
+}
+
+.onclick-menu.no-visibility:focus .onclick-menu-content {
+  display: block;
+}
+
+.onclick-menu.no-opacity .onclick-menu-content {
+  opacity: 1 !important;
+}
+
+/*
+Eye candy 
+( colors courtesy of https://kuler.adobe.com/try-color-theme-3350110 )
+*/
+.onclick-menu {
+  padding: 0;
+  margin: 0 0 1em 0;
+  outline: 0;
+}
+.onclick-menu:before {
+  padding: 5px 10px;
+  background-color: rgba(77, 64, 122, .9);
+}
+.onclick-menu-content {
+  background-color: rgba(77, 64, 122, .9);
+  width: 8rem;
+  margin-top: 10px;
+  margin-left: 0;
+  padding: 10px;
+}
+
+/* arrow for the expanding part */
+/*.onclick-menu-content:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #364656;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+
+  position: absolute;
+  top: -10px;
+}*/
+
+.onclick-menu-content li {
+  color: #f2f5e9;
+  list-style-type: none;
+  white-space: nowrap;
+}
+
+.onclick-menu-content li a {
+  color:white;
+}
+
+/* style the buttons */
+.onclick-menu-content button {
+  background: transparent;
+  border: none;
+  color: inherit;
+  outline: 0;
+  cursor: pointer;
+  font-family: oxygen;
+  font-size: 1rem;
+  /*border-bottom: 1px solid white;*/
+  padding: 5px 0;
+}
+.onclick-menu-content button:hover {
+  color: #ff8c31;
+}
+
+/* Codepen stuff */
+.onclick-menu {
+
+  text-align: left;
+}
+
+#ot > form > section > h2 {
+    display: inline;
+}
+
+input.textarea.time {
+
+    width: 65px;
+    height: 33px;
+    margin-left: 20px;
+    font-family: 'Oxygen';
+    font-weight: 100;
+    font-size: 2.5rem;
+    padding: 5px;
+    text-align: center;
+    display: inline;
 }

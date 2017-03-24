@@ -21,7 +21,7 @@ date_default_timezone_set('America/Chicago');
 $fh = fopen('../log/calltypes.txt', 'w');
 
 // Establishing database connection
-$con = mysql_connect("127.0.0.1","root","Fedex123");
+$con = mysql_connect("127.0.0.1","root","root");
 mysql_select_db("creeper", $con);
 
 $result = mysql_query("SELECT Message FROM CallTypes WHERE LOB = 'dotcom'"); 
